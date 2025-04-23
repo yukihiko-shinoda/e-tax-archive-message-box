@@ -1,0 +1,8 @@
+services:
+  e-tax-archive-message-box:
+    build: .
+    image: futureys/e-tax-archive-message-box:development
+    volumes:
+      - .:/workspace
+      - /workspace/.selenium-cache
+      - /workspace/.venv

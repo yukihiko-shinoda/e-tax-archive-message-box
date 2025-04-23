@@ -1,0 +1,10 @@
+[project]
+name = "e-tax-archive-message-box"
+version = "0.1.0"
+description = "The archiver for the e-tax message box."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "selenium",
+  "pyyaml",
+]

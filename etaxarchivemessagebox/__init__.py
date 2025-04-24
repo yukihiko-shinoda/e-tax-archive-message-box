@@ -14,8 +14,8 @@ from selenium.webdriver.support.expected_conditions import (
 from selenium.webdriver.support.wait import WebDriverWait
 
 from etaxarchivemessagebox.config import Config
-from etaxarchivemessagebox.selenium.browser import Browser
-from etaxarchivemessagebox.selenium.web_page import WebPage
+from seleniumlibraries.browser import Browser
+from seleniumlibraries.web_page import WebPage
 
 
 class Form(WebPage):

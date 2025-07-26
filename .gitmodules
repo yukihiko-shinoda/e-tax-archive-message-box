@@ -1,3 +1,0 @@
-[submodule "seleniumlibraries"]
-	path = seleniumlibraries
-	url = https://github.com/yukihiko-shinoda/selenium-libraries.git

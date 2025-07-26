@@ -12,10 +12,10 @@ from selenium.webdriver.support.expected_conditions import (
     visibility_of_element_located,
 )
 from selenium.webdriver.support.wait import WebDriverWait
+from seleniumlibraries.browser import Browser
+from seleniumlibraries.page import WebPage
 
 from etaxarchivemessagebox.config import Config
-from seleniumlibraries.browser import Browser
-from seleniumlibraries.web_page import WebPage
 
 
 class Form(WebPage):
